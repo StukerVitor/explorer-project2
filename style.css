@@ -1,0 +1,78 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    margin-bottom: 90px;
+    /* Add margin bottom to accommodate the wave image */
+}
+
+#main {
+    width: 630px;
+    margin: 40px auto 72px;
+}
+
+#main img {
+    margin-bottom: 15px;
+}
+
+#text {
+    margin: 0 40px 0;
+}
+
+h1 {
+    font-family: "Dosis", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 32px;
+    color: #3F3D56;
+}
+
+h1 span {
+    font-weight: bold;
+}
+
+span {
+    color: #EE24FF;
+}
+
+strong {
+    color: #3F3D56;
+}
+
+span.flutuar {
+    color: #828282;
+    font-weight: bold;
+}
+
+#footer a {
+    color: #3F3D56;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p,
+#footer {
+    color: #7D7987;
+    font-size: 15px;
+    line-height: 28px;
+}
+
+/* pegue um 'a', que anterior a ele tenha um 'a'*/
+#footer a+a {
+    margin-left: 22px;
+}
+
+.line {
+    width: 568px;
+    height: 0px;
+    border: 1px #ECEFF2 solid;
+    margin: 0 auto 8px;
+}
+
+#wave {
+    position: fixed;
+    /* or absolute */
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    max-height: 70px;
+}
